@@ -34,8 +34,8 @@ useHead({
     { name: 'og:url', content: runtimeConfig.public.siteUrl },
     { name: 'og:site_name', content: 'Wibbo' },
     { name: 'og:image', content: runtimeConfig.public.siteUrl + '/app_wibbo_hotel_image.png' },
-    { name: 'msapplication-TileColor', content: '#18202b' },
-    { name: 'theme-color', content: '#18202b' }
+    { name: 'msapplication-TileColor', content: '#001726' },
+    { name: 'theme-color', content: '#001726' }
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

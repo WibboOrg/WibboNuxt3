@@ -2,7 +2,7 @@
   <div class="w-full p-2 bg-black bg-opacity-40">
     <div class="container">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
-        <div class="mb-2 text-center">
+        <div class="mb-2  text-slate-400 text-center">
           <p class="mb-1">
             {{ $t('footer.social-follow') }}
           </p>
@@ -20,7 +20,7 @@
           </BaseSocialLink>
         </div>
 
-        <div class="lg:col-span-3">
+        <div class="lg:col-span-3  text-slate-400 text-center">
           <NuxtLink :to="'/contact'" target="_self" class="underline hover:underline">
             {{ $t('footer.contact-link') }}
           </NuxtLink> /

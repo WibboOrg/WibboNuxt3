@@ -79,10 +79,10 @@ export default defineNuxtConfig({
           lang: 'fr',
           short_name: 'Wibbo',
           description: 'Se faire des amis, s\'amuser, se faire connaitre',
-          background_color: '#18202b',
+          background_color: '#001726',
           display: 'fullscreen',
           scope: '/',
-          theme_color: '#18202b',
+          theme_color: '#001726',
           orientation: 'landscape-primary',
           icons: [
               {
