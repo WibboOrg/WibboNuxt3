@@ -1,220 +1,220 @@
 {
-  "alert-server-error": "Merci de réessayer plus tard",
-  "alert-warning": {
-    "error": "Une erreur s'est produite. Merci de réessayer plus tard",
-    "permission": "Votre rang ne vous permet pas d'accédez à cette catégorie.",
-    "captcha": "Précisez si vous êtes un robot ou non en cochant le captcha",
-    "login": {
-      "fail": "Vos identifiants sont incorrects",
-      "ban": "Tu as été exclu. La raison de cette exclusion est la suivante \" {0} \" Merci de relire la Wibbo Attitude et nos Conditions Générales d'Utilisation. La sanction prendra fin le {1} à {2}",
-      "staff": "Votre IP ne correspond pas avec les données de notre database, merci de procéder à un changement de cette sécurité : {0}"
+    "alert-server-error": "Merci de réessayer plus tard",
+    "alert-warning": {
+        "error": "Une erreur s'est produite. Merci de réessayer plus tard",
+        "permission": "Votre rang ne vous permet pas d'accédez à cette catégorie.",
+        "captcha": "Précisez si vous êtes un robot ou non en cochant le captcha",
+        "login": {
+            "fail": "Vos identifiants sont incorrects",
+            "ban": "Tu as été exclu. La raison de cette exclusion est la suivante \" {0} \" Merci de relire la Wibbo Attitude et nos Conditions Générales d'Utilisation. La sanction prendra fin le {1} à {2}",
+            "staff": "Votre IP ne correspond pas avec les données de notre database, merci de procéder à un changement de cette sécurité : {0}"
+        },
+        "register": {
+            "incorrect-username": "Votre pseudonyme contient des caractères interdit",
+            "big-username": "Votre pseudonyme est trop long",
+            "empty-username": "Votre pseudonyme est trop court",
+            "exist-username": "Votre pseudonyme est déjà utilisé",
+            "same-password": "Les mots de passe ne correspondent pas",
+            "empty-password": "Votre mot de passe est trop court",
+            "condition": "Merci de lire et accepter nos conditions d'utilisation avant de vous inscrire",
+            "ip-limit": "La limite de création de 100 comptes par IP a été atteinte",
+            "create-limit": "Vous avez atteint la limite de création de comptes/heures",
+            "vpn": "Les VPN ne sont pas autorisés sur Wibbo"
+        },
+        "job": {
+            "forgot": "Merci de vérifier le conformité de votre document. Ne manque t il pas des sections ?",
+            "warning": "La possibilité de postuler est devenue définitivement de façon continue."
+        },
+        "shop": {
+            "limitcoins-missing": "Tu n'as pas assez de LimitCoins",
+            "buy-error": "Une erreur est survenu. Contacter le support de Wibbo"
+        },
+        "mail": {
+            "code-invalid": "Le code de validation est incorrect",
+            "exist": "Email déjà existant auprès d'un autre utilisateur",
+            "invalid": "Merci d'entrer une email valide.",
+            "expirer": "Le code de validation a expiré.",
+            "in-progress": "Un code de validation a déjà été envoyé à votre adresse email. Surveillez votre boite de réception et vos spams.",
+            "deny": "Votre pseudonyme/e-mail est invalide ou votre adresse e-mail n'est pas activée.",
+            "empty-sujet": "Votre sujet est trop court",
+            "empty-message": "Votre message est trop court",
+            "same": "Les emails que vous avez saisis ne correspondent pas",
+            "idiot": "Vous utilisez déjà cette adresse-email."
+        },
+        "forum": {
+            "empty-message": "Le message est trop petit",
+            "big-message": "Ton message est trop grand",
+            "empty-sujet": "Indique un titre à ton sujet",
+            "big-sujet": "Ton titre ne doit pas dépasser 50 caractères",
+            "account-age": "Votre compte doit daté de plus de 1 jour pour pouvoir posté un message sur le forum",
+            "mail-valid": "Vous devez valider votre email pour pouvoir poster sur le forum",
+            "staff": "Cette catégorie est réservée au Staff",
+            "wait": "Veuillez attendre avant de re-créer un topic"
+        },
+        "settings-password": {
+            "mail-valid": "Confirmer votre e-mail pour pouvoir changer de mot de passe",
+            "empty-password": "Votre mot de passe est trop court",
+            "same-password": "Les mots de passe ne corresponds pas"
+        }
+    },
+    "header": {
+        "link-login": "SE CONNECTER",
+        "link-register": "INSCRIS-TOI !",
+        "register-about": "Des milliers de nouveaux amis t'y attendent!",
+        "link-hotel": "Entrer dans l'hôtel"
+    },
+    "header-login": {
+        "label-username": "Nom d'utilisateur",
+        "label-password": "Mot de passe",
+        "password-forgot": "Mot de passe oublié ?",
+        "button-login": "Connexion"
+    },
+    "navbar": {
+        "install-app": "Ajouter l'application Wibbo",
+        "search": "Chercher un Wibbo...",
+        "hotel": "Hôtel",
+        "home": "ACCUEIL",
+        "community": "COMMUNAUTÉ",
+        "news": "Articles",
+        "staff": "Équipe",
+        "photo": "Photos",
+        "forum": "Forum",
+        "job": "Recrutement",
+        "security": "SÉCURITÉ",
+        "wibbo-security": "La sécurité sur Wibbo",
+        "wibbo-attitude": "Wibbo Attitude",
+        "wibbo-what": "Qu'est ce que Wibbo ?",
+        "help": "Aide",
+        "support": "Support",
+        "shop": "ACHAT DE LTC",
+        "shop-buy": "Achat de LimitCoin",
+        "shop-premium": "Adhésion au Premium",
+        "shop-point": "Achat de WibboPoints",
+        "shop-ltc": "Achat de Limit'Coin",
+        "shop-badge": "Achat d'un badge personnel",
+        "ranking": "CLASSEMENT",
+        "ranking-wealth": "TOP Richesses",
+        "ranking-affecting": "TOP Influences",
+        "ranking-game": "TOP Gamer",
+        "ranking-mazo": "TOP Mazo",
+        "ranking-runner": "TOP Runner",
+        "admin": "Administration",
+        "a2f": "Authentification à 2 facteurs",
+        "settings": "Paramètres",
+        "profil": "Profil",
+        "logout": "Deconnexion",
+        "cgu": "Conditions Générales d'Utilisations",
+        "confidentiality": "Politique de confidentialité",
+        "cookie": "Politique des cookies"
+    },
+    "footer": {
+        "social-follow": "Rejoins nous!",
+        "contact-link": "Service client & Support technique",
+        "disclaimer-link": "Conditions d'utilisation du Service",
+        "confidentialy-link": "Politique de confidentialité",
+        "security-link": "Securité",
+        "copyright": "Wibbo est un projet indépendant, à but non lucratif.",
+        "cookie-link": "Politique des cookies"
+    },
+    "index": {
+        "title": "Se faire des amis, s'amuser, se faire connaitre",
+        "description": "Inscris-toi et joue GRATUITEMENT! Tu pourras rencontrer de nouveaux amis, jouer à des jeux, parler, créer ton personnage, construire des appartements et bien plus!",
+        "intro-title-discovery": "Découverte",
+        "intro-about-discovery": "Découvre de nouveaux lieux extraordinaires et fais de nouvelles rencontres inoubliables sur Wibbo!",
+        "intro-title-love": "Rencontre",
+        "intro-about-love": "Des milliers de gens formidables t'y attendent! Séjourne-y et fais toi un maximum de rencontres!",
+        "intro-title-game": "Animation",
+        "intro-about-game": "Émerveille tes amis en gagnant le plus possible aux jeux organisés par les joueurs et les animateurs!"
+    },
+    "staff": {
+        "title": "L'équipe des Staffs"
     },
     "register": {
-      "incorrect-username": "Votre pseudonyme contient des caractères interdit",
-      "big-username": "Votre pseudonyme est trop long",
-      "empty-username": "Votre pseudonyme est trop court",
-      "exist-username": "Votre pseudonyme est déjà utilisé",
-      "same-password": "Les mots de passe ne correspondent pas",
-      "empty-password": "Votre mot de passe est trop court",
-      "condition": "Merci de lire et accepter nos conditions d'utilisation avant de vous inscrire",
-      "ip-limit": "La limite de création de 100 comptes par IP a été atteinte",
-      "create-limit": "Vous avez atteint la limite de création de comptes/heures",
-      "vpn": "Les VPN ne sont pas autorisés sur Wibbo"
+        "title": "Inscription"
     },
-    "job": {
-      "forgot": "Merci de vérifier le conformité de votre document. Ne manque t il pas des sections ?",
-      "warning": "La possibilité de postuler est devenue définitivement de façon continue."
+    "home": {
+        "title": "Moi",
+        "premium-join": "Adhérer au Premium",
+        "premium-time": "Premium pendant encore {0} jours",
+        "warning-email": "Attention, votre compte n'est rattaché à aucun e-mail actif, dans le cas où votre mot de passe est perdu, vous ne serez pas dans la capacité de le récupérer. Cliquez-ici pour confirmer votre compte",
+        "forum-last-sujet": "Derniers sujets",
+        "forum-last-message-1": "Dernier message de",
+        "forum-last-message-2": ", il y a"
     },
-    "shop": {
-      "limitcoins-missing": "Tu n'as pas assez de LimitCoins",
-      "buy-error": "Une erreur est survenu. Contacter le support de Wibbo"
+    "contact": {
+        "title": "Contacter le support"
     },
-    "mail": {
-      "code-invalid": "Le code de validation est incorrect",
-      "exist": "Email déjà existant auprès d'un autre utilisateur",
-      "invalid": "Merci d'entrer une email valide.",
-      "expirer": "Le code de validation a expiré.",
-      "in-progress": "Un code de validation a déjà été envoyé à votre adresse email. Surveillez votre boite de réception et vos spams.",
-      "deny": "Votre pseudonyme/e-mail est invalide ou votre adresse e-mail n'est pas activée.",
-      "empty-sujet": "Votre sujet est trop court",
-      "empty-message": "Votre message est trop court",
-      "same": "Les emails que vous avez saisis ne correspondent pas",
-      "idiot": "Vous utilisez déjà cette adresse-email."
+    "hotel": {
+        "title": "Hôtel"
     },
-    "forum": {
-      "empty-message": "Le message est trop petit",
-      "big-message": "Ton message est trop grand",
-      "empty-sujet": "Indique un titre à ton sujet",
-      "big-sujet": "Ton titre ne doit pas dépasser 50 caractères",
-      "account-age": "Votre compte doit daté de plus de 1 jour pour pouvoir posté un message sur le forum",
-      "mail-valid": "Vous devez valider votre email pour pouvoir poster sur le forum",
-      "staff": "Cette catégorie est réservée au Staff",
-      "wait": "Veuillez attendre avant de re-créer un topic"
+    "settings": {
+        "title": "Paramètres"
     },
-    "settings-password": {
-      "mail-valid": "Confirmer votre e-mail pour pouvoir changer de mot de passe",
-      "empty-password": "Votre mot de passe est trop court",
-      "same-password": "Les mots de passe ne corresponds pas"
+    "upload-image": {
+        "title": "Uploder une image"
+    },
+    "news-list": {
+        "title": "Liste des articles"
+    },
+    "photos": {
+        "title": "Photos des joueurs"
+    },
+    "forgot": {
+        "title": "Mot de passe oublier"
+    },
+    "forum-create": {
+        "title": "Crée un sujet sur le forum"
+    },
+    "ranking-influences": {
+        "title": "Classement influences"
+    },
+    "ranking-gamer": {
+        "title": "Classement joueurs"
+    },
+    "ranking-mazo": {
+        "title": "Classement mazo"
+    },
+    "ranking-runner": {
+        "title": "Classement Movie Run"
+    },
+    "ranking-wealth": {
+        "title": "Classement richesses"
+    },
+    "confidentialy": {
+        "title": "Politique de confidentialité"
+    },
+    "cookie": {
+        "title": "Politique des cookies"
+    },
+    "disclaimer": {
+        "title": "Conditions d'utilisation du service"
+    },
+    "security": {
+        "title": "Sécurité"
+    },
+    "legislation": {
+        "title": "Legislation"
+    },
+    "what-is": {
+        "title": "Qu'est ce que Wibbo ?"
+    },
+    "error": {
+        "title": "PAGE INTROUVALE!",
+        "content": "Il semble que la page que vous cherchiez est introuvable. Vérifie l'URL ou essaie de recommencer depuis",
+        "link": "la page d'acceuil"
+    },
+    "purse": {
+        "title": "Votre porte-monnaie"
+    },
+    "shop-limitcoins": {
+        "title": "Acheter des LimitCoins",
+        "about": "Pour acheter des badges, un abonnement Premium, badge personnalisé, ou des WibboPoints, il te faut des LimitCoins, les LimitCoins sont la monnaie payante de Wibbo, sans eux tu n'auras droit à aucun de ces avantages.",
+        "disclaimer-title": "Souviens toi",
+        "disclaimer-content-1": "Si tu rencontres des problèmes, contacte-nous grâce au",
+        "disclaimer-link": "Service Client",
+        "disclaimer-content-2": "de Wibbo. Disponible 24h/24 7j/7.",
+        "disclaimer-content-3": "Le contenu numérique est livré immédiatement après la confirmation du paiement et par l'achat il est admis qu'il n'existe pas de droit de rétractation. Toutes les manières légitimes d'acheter des LimitCoins sont disponibles uniquement ici. Acheter des LimitCoins ailleurs peut conduire à une arnaque et à une exclusion du jeu.",
+        "buy-sucess": "Merci pour votre achat, {0} LimitCoins ont été ajoutés à ton compte! + RECOMPENSE de {1} Win-wins !",
+        "buy-fail": "Le code est invalide/incorrect."
     }
-  },
-  "header": {
-    "link-login": "SE CONNECTER",
-    "link-register": "INSCRIS-TOI !",
-    "register-about": "Des milliers de nouveaux amis t'y attendent!",
-    "link-hotel": "Entrer dans l'hôtel"
-  },
-  "header-login": {
-    "label-username": "Nom d'utilisateur",
-    "label-password": "Mot de passe",
-    "password-forgot": "Mot de passe oublié ?",
-    "button-login": "Connexion"
-  },
-  "navbar": {
-    "install-app": "Ajouter l'application Wibbo",
-    "search": "Chercher un Wibbo...",
-    "hotel": "Hôtel",
-    "home": "ACCUEIL",
-    "community": "COMMUNAUTÉ",
-    "news": "Articles",
-    "staff": "Équipe",
-    "photo": "Photos",
-    "forum": "Forum",
-    "job": "Recrutement",
-    "security": "SÉCURITÉ",
-    "wibbo-security": "La sécurité sur Wibbo",
-    "wibbo-attitude": "Wibbo Attitude",
-    "wibbo-what": "Qu'est ce que Wibbo ?",
-    "help": "Aide",
-    "support": "Support",
-    "shop": "ACHAT DE LTC",
-    "shop-buy": "Achat de LimitCoin",
-    "shop-premium": "Adhésion au Premium",
-    "shop-point": "Achat de WibboPoints",
-    "shop-ltc": "Achat de Limit'Coin",
-    "shop-badge": "Achat d'un badge personnel",
-    "ranking": "CLASSEMENT",
-    "ranking-wealth": "TOP Richesses",
-    "ranking-affecting": "TOP Influences",
-    "ranking-game": "TOP Gamer",
-    "ranking-mazo": "TOP Mazo",
-    "ranking-runner": "TOP Runner",
-    "admin": "Administration",
-    "a2f": "Authentification à 2 facteurs",
-    "settings": "Paramètres",
-    "profil": "Profil",
-    "logout": "Deconnexion",
-    "cgu": "Conditions Générales d'Utilisations",
-    "confidentiality": "Politique de confidentialité",
-    "cookie": "Politique des cookies"
-  },
-  "footer": {
-    "social-follow": "Réseaux sociaux",
-    "contact-link": "Service client & Support technique",
-    "disclaimer-link": "Conditions d'utilisation du Service",
-    "confidentialy-link": "Politique de confidentialité",
-    "security-link": "Securité",
-    "copyright": "Wibbo est un projet indépendant, à but non lucratif.",
-    "cookie-link": "Politique des cookies"
-  },
-  "index": {
-    "title": "Se faire des amis, s'amuser, se faire connaitre",
-    "description": "Inscris-toi et joue GRATUITEMENT! Tu pourras rencontrer de nouveaux amis, jouer à des jeux, parler, créer ton personnage, construire des appartements et bien plus!",
-    "intro-title-discovery": "Découverte",
-    "intro-about-discovery": "Découvre de nouveaux lieux extraordinaires et fais de nouvelles rencontres inoubliables sur Wibbo!",
-    "intro-title-love": "Rencontre",
-    "intro-about-love": "Des milliers de gens formidables t'y attendent! Séjourne-y et fais toi un maximum de rencontres!",
-    "intro-title-game": "Animation",
-    "intro-about-game": "Émerveille tes amis en gagnant le plus possible aux jeux organisés par les joueurs et les animateurs!"
-  },
-  "staff": {
-    "title": "L'équipe des Staffs"
-  },
-  "register": {
-    "title": "Inscription"
-  },
-  "home": {
-    "title": "Moi",
-    "premium-join": "Adhérer au Premium",
-    "premium-time": "Premium pendant encore {0} jours",
-    "warning-email": "Attention, votre compte n'est rattaché à aucun e-mail actif, dans le cas où votre mot de passe est perdu, vous ne serez pas dans la capacité de le récupérer. Cliquez-ici pour confirmer votre compte",
-    "forum-last-sujet": "Derniers sujets",
-    "forum-last-message-1": "Dernier message de",
-    "forum-last-message-2": ", il y a"
-  },
-  "contact": {
-    "title": "Contacter le support"
-  },
-  "hotel": {
-    "title": "Hôtel"
-  },
-  "settings": {
-    "title": "Paramètres"
-  },
-  "upload-image": {
-    "title": "Uploder une image"
-  },
-  "news-list": {
-    "title": "Liste des articles"
-  },
-  "photos": {
-    "title": "Photos des joueurs"
-  },
-  "forgot": {
-    "title": "Mot de passe oublier"
-  },
-  "forum-create": {
-    "title": "Crée un sujet sur le forum"
-  },
-  "ranking-influences": {
-    "title": "Classement influences"
-  },
-  "ranking-gamer": {
-    "title": "Classement joueurs"
-  },
-  "ranking-mazo": {
-    "title": "Classement mazo"
-  },
-  "ranking-runner": {
-    "title": "Classement Movie Run"
-  },
-  "ranking-wealth": {
-    "title": "Classement richesses"
-  },
-  "confidentialy": {
-    "title": "Politique de confidentialité"
-  },
-  "cookie": {
-    "title": "Politique des cookies"
-  },
-  "disclaimer": {
-    "title": "Conditions d'utilisation du service"
-  },
-  "security": {
-    "title": "Sécurité"
-  },
-  "legislation": {
-    "title": "Legislation"
-  },
-  "what-is": {
-    "title": "Qu'est ce que Wibbo ?"
-  },
-  "error": {
-    "title": "PAGE INTROUVALE!",
-    "content": "Il semble que la page que vous cherchiez est introuvable. Vérifie l'URL ou essaie de recommencer depuis",
-    "link": "la page d'acceuil"
-  },
-  "purse": {
-    "title": "Votre porte-monnaie"
-  },
-  "shop-limitcoins": {
-    "title": "Acheter des LimitCoins",
-    "about": "Pour acheter des badges, un abonnement Premium, badge personnalisé, ou des WibboPoints, il te faut des LimitCoins, les LimitCoins sont la monnaie payante de Wibbo, sans eux tu n'auras droit à aucun de ces avantages.",
-    "disclaimer-title": "Souviens toi",
-    "disclaimer-content-1": "Si tu rencontres des problèmes, contacte-nous grâce au",
-    "disclaimer-link": "Service Client",
-    "disclaimer-content-2": "de Wibbo. Disponible 24h/24 7j/7.",
-    "disclaimer-content-3": "Le contenu numérique est livré immédiatement après la confirmation du paiement et par l'achat il est admis qu'il n'existe pas de droit de rétractation. Toutes les manières légitimes d'acheter des LimitCoins sont disponibles uniquement ici. Acheter des LimitCoins ailleurs peut conduire à une arnaque et à une exclusion du jeu.",
-    "buy-sucess": "Merci pour votre achat, {0} LimitCoins ont été ajoutés à ton compte! + RECOMPENSE de {1} Win-wins !",
-    "buy-fail": "Le code est invalide/incorrect."
-  }
 }

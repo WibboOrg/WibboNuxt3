@@ -1,10 +1,7 @@
 <template>
-  <nav id="navbar" class="wibbo-nav">
-    <div class="container flex flex-col flex-wrap px-4 py-4 lg:flex-row">
+  <nav id="navbar" class="wibbo-nav shadow-">
+    <div class="container flex flex-col flex-wrap px-4 py-4 lg:flex-row ">
       <div class="flex items-center">
-        <NuxtLink to="/home" aria-label="Return logo">
-          <div class="wibbo-nav__logo" />
-        </NuxtLink>
 
         <TheNavbarSearch :drop-name="dropName" @open-search="dropName = 'search'" />
 
@@ -339,9 +336,9 @@ const documentClick = (event: MouseEvent) => {
         // justify-content: center;
         // align-items: center;
         position: relative;
-        background-color: rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(0, 0, 0, 0.4);
-        box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.25);
+        //background-color: rgba(0, 0, 0, 0.1);
+        //border: 1px solid rgba(0, 0, 0, 0.4);
+        //box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.25);
         min-width: 42px;
         width: 100%;
         padding: 10px;
