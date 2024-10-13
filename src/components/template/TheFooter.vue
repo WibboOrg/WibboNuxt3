@@ -2,10 +2,10 @@
   <div class="w-full p-2 bg-black bg-opacity-40">
     <div class="container">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
-        <div class="mb-2  text-slate-400 text-center">
-          <p class="mb-1">
+        <div class="col-span-1 text-center text-slate-400">
+          <div class="my-2">
             {{ $t('footer.social-follow') }}
-          </p>
+          </div>
           <BaseSocialLink href="https://discord.wibbo.org" aria-label="Discord" class="bg-[#2b2b2b] hover:bg-[#525252]">
             <i class="fab fa-discord" />
           </BaseSocialLink>
@@ -20,7 +20,7 @@
           </BaseSocialLink>
         </div>
 
-        <div class="lg:col-span-3  text-slate-400 text-center">
+        <div class="col-span-1 text-center lg:col-span-3 text-slate-400">
           <NuxtLink :to="'/contact'" target="_self" class="underline hover:underline">
             {{ $t('footer.contact-link') }}
           </NuxtLink> /
@@ -37,7 +37,7 @@
             {{ $t('footer.cookie-link') }}
           </NuxtLink> /
           <a :href="'mailto:' + runtimeConfig.public.siteMail" target="_self" class="underline hover:underline">{{ runtimeConfig.public.siteMail }}</a>
-          <p class="mt-2">
+          <p class="mb-0">
             © 2011 - {{ year }} : Wibbo Hôtel.<br>
             {{ $t('footer.copyright') }}
           </p>
