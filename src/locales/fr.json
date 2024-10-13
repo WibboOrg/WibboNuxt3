@@ -61,7 +61,7 @@
         "link-login": "SE CONNECTER",
         "link-register": "INSCRIS-TOI !",
         "register-about": "Des milliers de nouveaux amis t'y attendent!",
-        "link-hotel": "Entrer dans l'hôtel"
+        "link-hotel": "JOUER"
     },
     "header-login": {
         "label-username": "Nom d'utilisateur",
@@ -139,7 +139,12 @@
         "warning-email": "Attention, votre compte n'est rattaché à aucun e-mail actif, dans le cas où votre mot de passe est perdu, vous ne serez pas dans la capacité de le récupérer. Cliquez-ici pour confirmer votre compte",
         "forum-last-sujet": "Derniers sujets",
         "forum-last-message-1": "Dernier message de",
-        "forum-last-message-2": ", il y a"
+        "forum-last-message-2": ", il y a",
+        "besoin-aide": "Besoin d'aide?",
+        "wibbo-attitude": "Wibbo Attitude",
+        "top-winwins": "Top Win-wins",
+        "top-limitcoins": "Top LimitCoins",
+        "top-wibbopoints": "Top WibboPoints"
     },
     "contact": {
         "title": "Contacter le support"
@@ -201,7 +206,7 @@
     "error": {
         "title": "PAGE INTROUVALE!",
         "content": "Il semble que la page que vous cherchiez est introuvable. Vérifie l'URL ou essaie de recommencer depuis",
-        "link": "la page d'acceuil"
+        "link": "la page d'accuuil"
     },
     "purse": {
         "title": "Votre porte-monnaie"
@@ -216,5 +221,8 @@
         "disclaimer-content-3": "Le contenu numérique est livré immédiatement après la confirmation du paiement et par l'achat il est admis qu'il n'existe pas de droit de rétractation. Toutes les manières légitimes d'acheter des LimitCoins sont disponibles uniquement ici. Acheter des LimitCoins ailleurs peut conduire à une arnaque et à une exclusion du jeu.",
         "buy-sucess": "Merci pour votre achat, {0} LimitCoins ont été ajoutés à ton compte! + RECOMPENSE de {1} Win-wins !",
         "buy-fail": "Le code est invalide/incorrect."
+    },
+    "photos-communautaires": {
+        "title": "Les photos communautaires"
     }
 }

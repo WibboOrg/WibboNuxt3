@@ -72,8 +72,7 @@ const resetTimer = () => {
 
 <style lang="scss">
 .carousel {
-    @apply relative overflow-hidden rounded-lg mx-auto bg-black bg-opacity-40;
-    height: 300px;
+    @apply relative h-full overflow-hidden rounded-lg mx-auto bg-black bg-opacity-40;
 
     &__item {
         @apply absolute w-full h-full z-10 opacity-0 transition-opacity duration-700;

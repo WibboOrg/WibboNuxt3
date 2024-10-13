@@ -2,7 +2,7 @@
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
     <div class="col-span-full">
       <h1 class="photos__title">
-        Les photos communautaire
+        {{ $t('photos-communautaires.title') }}
       </h1>
     </div>
     <div v-for="data in photos" :key="data.photo" class="flex items-center justify-center col-span-1">
