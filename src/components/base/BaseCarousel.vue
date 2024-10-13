@@ -116,7 +116,7 @@ const resetTimer = () => {
     }
 
     &__container {
-        @apply absolute top-0 left-0 right-0 bottom-0 mx-auto;
+        @apply absolute top-1/2 -translate-y-1/2 h-[300px] left-0 right-0 bottom-0 mx-auto;
     }
 
     &__img {
