@@ -22,7 +22,7 @@
 
         <div class="flex flex-row ml-auto">
           <div class="block cursor-pointer wibbo-nav__dropdown lg:hidden">
-            <button class="wibbo-nav__link alone" aria-label="Open menu" @click.prevent="navToggle = !navToggle">
+            <button class="flex items-center justify-center wibbo-nav__link alone" aria-label="Open menu" @click.prevent="navToggle = !navToggle">
               <i class="fa fa-bars" />
             </button>
           </div>
@@ -283,7 +283,6 @@ const documentClick = (event: MouseEvent) => {
     &__form {
         position: relative;
         display: flex;
-        flex-wrap: wrap;
         align-items: stretch;
         width: auto;
     }
@@ -333,8 +332,8 @@ const documentClick = (event: MouseEvent) => {
 
     &__link {
         display: flex;
-        // justify-content: center;
-        // align-items: center;
+        justify-content: center;
+        align-items: center;
         position: relative;
         //background-color: rgba(0, 0, 0, 0.1);
         //border: 1px solid rgba(0, 0, 0, 0.4);
