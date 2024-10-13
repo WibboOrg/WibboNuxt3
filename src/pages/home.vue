@@ -61,38 +61,38 @@
         </template>
       </BaseCard>
     </div>
-  </div>
 
-  <div class="grid grid-cols-1 gap-4 mt-4 col-span-full lg:grid-cols-3">
-    <BaseCard>
-      <template #title>
-        {{ $t('home.top-winwins') }}
-      </template>
+    <div class="grid grid-cols-1 gap-4 mt-4 col-span-full lg:grid-cols-3">
+      <BaseCard>
+        <template #title>
+          {{ $t('home.top-winwins') }}
+        </template>
 
-      <template #body>
-        <BasePodium name="Win-wins" :top-user="winwin" score="achievement_score" />
-      </template>
-    </BaseCard>
+        <template #body>
+          <BasePodium name="Win-wins" :top-user="winwin" score="achievement_score" />
+        </template>
+      </BaseCard>
 
-    <BaseCard>
-      <template #title>
-        {{ $t('home.top-limitcoins') }}
-      </template>
+      <BaseCard>
+        <template #title>
+          {{ $t('home.top-limitcoins') }}
+        </template>
 
-      <template #body>
-        <BasePodium name="LTC" :top-user="ltc" score="limit_coins" />
-      </template>
-    </BaseCard>
+        <template #body>
+          <BasePodium name="LTC" :top-user="ltc" score="limit_coins" />
+        </template>
+      </BaseCard>
 
-    <BaseCard>
-      <template #title>
-        {{ $t('home.top-wibbopoints') }}
-      </template>
+      <BaseCard>
+        <template #title>
+          {{ $t('home.top-wibbopoints') }}
+        </template>
 
-      <template #body>
-        <BasePodium name="WibboPoints" :top-user="wibbopoint" score="vip_points" />
-      </template>
-    </BaseCard>
+        <template #body>
+          <BasePodium name="WibboPoints" :top-user="wibbopoint" score="vip_points" />
+        </template>
+      </BaseCard>
+    </div>
   </div>
 </template>
 

@@ -134,8 +134,6 @@
     },
     "home": {
         "title": "Moi",
-        "premium-join": "Adhérer au Premium",
-        "premium-time": "Premium pendant encore {0} jours",
         "warning-email": "Attention, votre compte n'est rattaché à aucun e-mail actif, dans le cas où votre mot de passe est perdu, vous ne serez pas dans la capacité de le récupérer. Cliquez-ici pour confirmer votre compte",
         "forum-last-sujet": "Derniers sujets",
         "forum-last-message-1": "Dernier message de",
