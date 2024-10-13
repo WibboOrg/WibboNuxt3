@@ -102,7 +102,7 @@ const scoreThree = computed(() => +topThree.value[props.score] ?? 0)
     &__top-1 {
         width: 64px;
         position: absolute;
-        top: 23px;
+        top: 28px;
         left: 8px;
 
         &:hover {
@@ -118,7 +118,7 @@ const scoreThree = computed(() => +topThree.value[props.score] ?? 0)
     &__top-2 {
         width: 64px;
         position: absolute;
-        top: 5px;
+        top: 8px;
         left: 79px;
 
         &:hover {
@@ -134,7 +134,7 @@ const scoreThree = computed(() => +topThree.value[props.score] ?? 0)
     &__top-3 {
         width: 64px;
         position: absolute;
-        top: 42px;
+        top: 46px;
         left: 152px;
 
         &:hover {
