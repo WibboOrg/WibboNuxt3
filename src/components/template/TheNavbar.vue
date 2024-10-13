@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar" class="wibbo-nav shadow-">
+  <nav id="navbar" class="wibbo-nav shadow">
     <div class="container flex flex-col flex-wrap px-4 py-4 lg:flex-row ">
       <div class="flex items-center">
 
@@ -264,20 +264,6 @@ const documentClick = (event: MouseEvent) => {
         height: 20px;
         position: relative;
         top: -10px;
-    }
-
-    &__logo {
-        display: block;
-        width: 38px;
-        height: 33px;
-        margin-right: 10px;
-        background-image: url(~/assets/imgs/logo_w.png);
-        background-position-x: 0;
-        filter: drop-shadow(2px 1px 0 rgba(0, 0, 0, 0.2)) drop-shadow(-2px 1px 0 rgba(0, 0, 0, 0.2)) drop-shadow(0 -2px 0 rgba(2505, 0, 0, 0.2));
-
-        &:hover {
-            background-position-x: -38px;
-        }
     }
 
     &__form {

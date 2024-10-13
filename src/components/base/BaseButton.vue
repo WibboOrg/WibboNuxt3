@@ -33,7 +33,7 @@ const btnClass = computed(() => {
 
 <style lang="scss">
     .btn {
-        @apply bg-green-600 inline-block w-full px-2 py-2 rounded cursor-pointer text-xl font-bold text-center text-white mb-1 transition-colors outline-none;
+        @apply bg-green-600 inline-block w-full px-4 py-3 rounded cursor-pointer text-xl font-bold text-center text-white mb-1 transition-colors outline-none;
         box-shadow: 2px 2px 0px 0px rgba(26, 26, 26, 0.3), inset 0 -3px 0 0 rgba(20, 20, 20, 0.25);
         border: solid 1px rgba(0, 0, 0, 0.3);
 
@@ -43,7 +43,7 @@ const btnClass = computed(() => {
         }
 
         &:hover:not([disabled]) {
-            @apply bg-green-600;
+            @apply bg-green-500;
         }
 
         &--min {

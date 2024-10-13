@@ -49,8 +49,8 @@
             </div>
           </span>
 
-          <span v-else class="flex flex-row justify-center">
-            <BaseButton class="relative mr-2" min :to="'/hotel'">{{ $t('header.link-hotel') }} <i class="fas fa-sign-in-alt" /></BaseButton>
+          <span v-else class="flex justify-center items-center">
+            <BaseButton class="mr-2" min :to="'/hotel'">{{ $t('header.link-hotel') }} <i class="relative header__hotel-icon ml-2" /></BaseButton>
           </span>
         </div>
       </div>
@@ -141,6 +141,16 @@ const isRootRoute = computed(() => (route && route.name ? route.name.toString().
         background-image: url('~/assets/imgs/header/header_cloud-logo.png');
 
         animation: cloud-bounce 2s infinite alternate;
+    }
+
+    &__hotel-icon {
+        width: 19px;
+        height: 26px;
+        background-image: url(~/assets/imgs/icons/hotel-icon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     &__hotel {
