@@ -52,9 +52,9 @@ const props = defineProps({
 
 const defaultUser: Partial<User> = { username: '', look: 'hd-787592-22.lg-270-1408' }
 
-const topOne = computed(() => (props.topUser?.length > 1 ? props.topUser[0] : defaultUser))
-const topTwo = computed(() => (props.topUser?.length > 2 ? props.topUser[1] : defaultUser))
-const topThree = computed(() => (props.topUser?.length > 3 ? props.topUser[2] : defaultUser))
+const topOne = computed(() => (props.topUser?.length >= 1 ? props.topUser[0] : defaultUser))
+const topTwo = computed(() => (props.topUser?.length >= 2 ? props.topUser[1] : defaultUser))
+const topThree = computed(() => (props.topUser?.length >= 3 ? props.topUser[2] : defaultUser))
 
 // @ts-ignore
 const scoreOne = computed(() => +topOne.value[props.score] ?? 0)
