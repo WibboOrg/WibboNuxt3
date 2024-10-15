@@ -6,12 +6,12 @@
           {{ cate.name }}
         </template>
         <template #body>
-          <div class="grid grid-cols-2 gap-2 2xl:grid-cols-8 xl:grid-cols-7 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-2 2xl:grid-cols-9 xl:grid-cols-7 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
             <NuxtLink
               v-for="staff in getStaffByRank(cate.id)"
               :key="staff.id"
               :to="'/profil/' + staff.username"
-              class="relative flex flex-col items-center justify-center w-48 h-auto gap-4 p-4 mb-2 bg-black rounded-md group bg-opacity-40 hover:bg-opacity-20"
+              class="relative flex flex-col items-center justify-center w-30 h-auto gap-4 p-4 mb-2 bg-black rounded-md group bg-opacity-40 hover:bg-opacity-20"
             >
               <h5 class="font-bold">
                 {{ staff.username }}

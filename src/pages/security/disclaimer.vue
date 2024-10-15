@@ -24,9 +24,10 @@
     </div>
     <div class="grid grid-cols-3 gap-2">
       <BaseCard>
+        <template #title>
+          CHARGES ET RESPONSABILITÉS
+        </template>
         <template #body>
-          <h4><b>1. Charges et responsabilités de Wibbo</b></h4>
-          <br>
           <b>1.1</b>
           Wibbo Hôtel utilise offre à ses joueurs une alternative majoritairement gratuite. L'objectif de cet hôtel parallèle est de fournir une expérience de jeu enrichie grâce à une gestion différente et une monnaie virtuelle obtenue gratuitement. Wibbo Hôtel n'a pas de but lucratif et consacre la majeure partie de ses bénéfices à l'amélioration de la qualité de jeu.
           <br><br>
@@ -71,9 +72,10 @@
         </template>
       </BaseCard>
       <BaseCard>
+        <template #title>
+          RÉGLEMENT DE WIBBO
+        </template>
         <template #body>
-          <h4><b>2. Règlement de Wibbo</b></h4>
-          <br>
           <b>2.1</b>
           Dès lors que tu entres sur Wibbo Hôtel, tu acceptes de te soumettre à l'entiereté des règles énoncées ici et toutes celles qui s'y rapportent logiquement, même si elles ne sont pas
           énoncées.
@@ -139,9 +141,10 @@
         </template>
       </BaseCard>
       <BaseCard>
+        <template #title>
+          CONDITIONS DE VENTE
+        </template>
         <template #body>
-          <h4><b>3. Conditions de vente</b></h4>
-          <br>
           <b>3.1</b>
           Pour effectuer un achat sur notre site il faut que vous soyez majeur, dans le cas contraire veuillez demander l'autorisation à la personne qui paye. Étant donné que les biens sont
           virtuels et mis à disposition immédiatement, vous renoncez intégralement à votre droit de rétractation légal.

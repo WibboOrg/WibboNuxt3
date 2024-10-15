@@ -13,17 +13,17 @@
 
         <form v-else class="grid grid-cols-1 gap-3" @submit.prevent="emailPost">
           <div class="col-span-1">
-            <label class="form-label">Ton email actuel</label>
+            <label class="form-label">Ton adresse email actuel</label>
             <BaseInput :value="authUser.mail != '' ? authUser.mail : 'Aucune e-mail'" readonly />
           </div>
 
           <div class="col-span-1">
-            <label class="form-label">Nouvel email</label>
+            <label class="form-label">Ta nouvelle adresse email</label>
             <BaseInput v-model="emailForm.mail" placeholder="Nouvel email" />
           </div>
 
           <div class="col-span-1">
-            <small id="newPassWord" class="form-text">Ton email sera utilisée pour les newsletters ainsi que pour récupérer ton mot de passe !</small>
+            <small id="newPassWord" class="form-text">Ton email est essentiel, il sera utilisée pour les newsletters ainsi que pour récupérer ton mot de passe ! N'oublie pas que les données sensibles ne peuvent être modifiées par l'équipe développement.</small>
           </div>
 
           <div class="col-span-1">

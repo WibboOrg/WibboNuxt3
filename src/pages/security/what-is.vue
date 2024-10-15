@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
+  <div class="grid grid-cols-1 gap-4 lg:grid-cols-1">
     <div class="col-span-1">
       <BaseCard class="h-full">
         <template #title>

@@ -2,7 +2,7 @@
   <div class="col-span-2">
     <BaseCard>
       <template #title>
-        Confidentialité
+        Préférences
       </template>
 
       <template #body>

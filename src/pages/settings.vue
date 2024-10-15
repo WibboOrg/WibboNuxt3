@@ -2,7 +2,7 @@
   <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
     <div class="col-span-1">
       <BaseButton :to="'/settings'" primary>
-        Confidentialité
+        Préférences
       </BaseButton>
       <BaseButton :to="'/settings/password'" primary>
         Mot de passe
