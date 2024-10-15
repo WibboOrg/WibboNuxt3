@@ -32,11 +32,20 @@ const route = useRoute()
 const newList = ref<Article[]>([])
 const totalPage = ref(1)
 
-try {
-  const page = route.query.page ? '?page=' + route.query.page : ''
-  const data = await useApiFetch<{ listNews: Article[]; totalPage: number }>('community/news-list' + page)
+const refresh = async () => {
+  try {
+    const page = route.query.page ? '?page=' + route.query.page : ''
+    const data = await useApiFetch<{ listNews: Article[]; totalPage: number }>('community/news-list' + page)
 
-  newList.value = data.listNews
-  totalPage.value = data.totalPage
-} catch {}
+    newList.value = data.listNews
+    totalPage.value = data.totalPage
+  } catch {
+    showError({ statusCode: 404, statusMessage: 'Page Not Found' })
+  }
+}
+
+refresh()
+
+watch(() => route.query.page, async () => await refresh())
+watch(() => route.params.search, async () => await refresh())
 </script>

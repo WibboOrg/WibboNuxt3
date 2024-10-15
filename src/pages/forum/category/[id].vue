@@ -84,12 +84,6 @@ const refresh = async () => {
 
 refresh()
 
-watch(
-  () => route.query.page,
-  async () => await refresh()
-)
-watch(
-  () => route.params.search,
-  async () => await refresh()
-)
+watch(() => route.query.page, async () => await refresh())
+watch(() => route.params.search, async () => await refresh())
 </script>
