@@ -1,23 +1,23 @@
 <template>
-  <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
     <div class="col-span-1 md:col-start-2">
-      <BaseCard>
-        <template #title>
-          Rejoindre un appartement
-        </template>
+        <BaseCard>
+            <template #title>
+                {{ room.caption || 'Aucun titre' }}
+            </template>
 
-        <template #body>
-          <b>Nom:</b> {{ room.caption || 'Aucun titre' }}<br>
-          <b>Propriétaire:</b>
-          <NuxtLink :to="'/profil/' + room.owner">
-            {{ room.owner }}
-          </NuxtLink><br>
-          <b>Description:</b>
-          {{ room.description || 'Aucune description' }}
-        </template>
-      </BaseCard>
+            <template #body>
+                <div class="flex gap-2">
+                    <img :src="`${runtimeConfig.public.cdnUrl}/thumbnails/thumbnail_${roomId}.png`">
+                    <div class="flex flex-col gap-2">
+                        <div><b>Propriétaire: </b><NuxtLink :to="'/profil/' + room.owner">{{ room.owner }}</NuxtLink></div>
+                        <div><b>Description: </b>{{ room.description || 'Aucune description' }}</div>
+                    </div>
+                </div>
+            </template>
+        </BaseCard>
     </div>
-  </div>
+</div>
 </template>
 
 <script lang="ts" setup>
@@ -30,11 +30,14 @@ definePageMeta({
 })
 
 const route = useRoute()
+const runtimeConfig = useRuntimeConfig()
+
+const roomId = computed(() => route.params.id.toString())
 
 const room = ref<Room>({ caption: '', owner: '', description: '' })
 
 try {
-  const data = await useApiFetch<{ room: Room }>('room/' + route.params.id)
+  const data = await useApiFetch<{ room: Room }>('room/' + roomId.value)
 
   room.value = data.room
 } catch {}
