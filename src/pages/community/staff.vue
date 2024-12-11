@@ -11,7 +11,7 @@
               v-for="staff in getStaffByRank(cate.id)"
               :key="staff.id"
               :to="'/profil/' + staff.username"
-              class="relative flex flex-col items-center justify-center w-30 h-auto gap-4 p-4 mb-2 bg-black rounded-md group bg-opacity-40 hover:bg-opacity-20"
+              class="relative flex flex-col items-center justify-center h-auto gap-4 p-4 mb-2 bg-black rounded-md w-30 group bg-opacity-40 hover:bg-opacity-20"
             >
               <h5 class="font-bold">
                 {{ staff.username }}
@@ -47,9 +47,8 @@ definePageMeta({
 })
 
 const category = ref([
-  { id: 11, name: 'Gestion' },
   { id: 6, name: 'Administration' },
-  { id: 7, name: 'Développement' },
+  { id: 7, name: 'Communication et Organisation' },
   { id: 9, name: 'Évènement' },
   { id: 8, name: 'Animation' },
   { id: 3, name: 'Modération' },

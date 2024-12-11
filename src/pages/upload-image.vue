@@ -56,7 +56,7 @@ const submitPost = async () => {
     const formData = new FormData()
     formData.append('file', fileUpload.value)
 
-    const response = await useApiFetch('admin/upload-image', { headers: { 'Content-Type': 'multipart/form-data' }, body: formData, method: 'POST' })
+    const response = await useApiFetch<{ url: string }>('admin/upload-image', { body: formData, method: 'POST', headers: { 'Content-Type': 'multipart/form-data' } })
 
     const url = response.url
 

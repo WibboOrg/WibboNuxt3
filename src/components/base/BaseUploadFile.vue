@@ -44,11 +44,11 @@ const inDrag = ref(false)
 const upload = ref<HTMLInputElement | null>(null)
 
 const onChange = () => {
-  if (!upload.value || !upload.value.files) { return }
+  if (!upload.value || !upload.value.files) return
 
   const file = upload.value.files[0]
 
-  if (!file) { return }
+  if (!file) return
 
   fileUpload.value = file
 
@@ -60,7 +60,7 @@ const dropHandler = (ev: DragEvent) => {
 
   const file = ev.dataTransfer?.files[0]
 
-  if (!file) { return }
+  if (!file) return
 
   fileUpload.value = file
 

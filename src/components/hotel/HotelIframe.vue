@@ -7,7 +7,7 @@
       width="100%"
       height="100%"
       frameborder="0"
-      allow="autoplay; microphone"
+      allow="autoplay; microphone; clipboard-write; clipboard-read"
     />
 
     <HotelBtn />
