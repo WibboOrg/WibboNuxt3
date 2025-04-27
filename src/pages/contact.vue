@@ -9,7 +9,7 @@
         <template #body>
           <form class="grid grid-cols-1 gap-3" @submit.prevent="contactPost">
             <div class="col-span-1">
-              <label for="contactInputUserName" class="form-label">Mon nom de Wibbo est...</label>
+              <label for="contactInputUserName" class="form-label">Mon pseudonyme est ...</label>
               <BaseInput id="contactInputUserName" v-model="contactForm.username" name="username" aria-describedby="emailUserName" placeholder="Pseudonyme" />
               <small id="emailUserName" class="form-text">Merci d'indiquer ton pseudonyme.</small>
             </div>
@@ -26,7 +26,7 @@
               <small
                 id="sujetHelp"
                 class="form-text"
-              >Merci de sélectionner une des propositions suivantes. Choisissez celle qui se rapproche le plus de votre souci, afin d’obtenir une réponse rapide.</small>
+              >Merci de sélectionner une des propositions suivantes. Choisissez celle qui se rapproche le plus de votre problématique, afin d’obtenir une réponse rapide.</small>
             </div>
 
             <div class="col-span-1">

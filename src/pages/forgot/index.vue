@@ -10,17 +10,17 @@
             <div class="col-span-1">
               <label for="forgotInputusername" class="form-label">Ton pseudonyme</label>
               <BaseInput id="forgotInputusername" v-model="forgotForm.username" name="username" aria-describedby="usernameHelp" placeholder="Ton pseudonyme" />
-              <small id="usernameHelp" class="form-text">Entre le pseudonyme du compte perdu</small>
+              <small id="usernameHelp" class="form-text">Entre le pseudonyme du compte</small>
             </div>
 
             <div class="col-span-1">
               <label for="forgotInputemail" class="form-label">Ton e-mail</label>
               <BaseInput id="forgotInputemail" v-model="forgotForm.email" name="email" aria-describedby="emailHelp" placeholder="Adresse e-mail" />
-              <small id="emailHelp" class="form-text">Entre l'adresse e-mail du compte perdu</small>
+              <small id="emailHelp" class="form-text">Le lien entre l'adresse mail et le pseuudonyme est de rigueur, sans eux, tu ne pourras pas récupérer ton compte !</small>
             </div>
 
             <BaseButton :loading="loading">
-              Effectuer la demande
+              ENVOYER
             </BaseButton>
           </form>
         </template>

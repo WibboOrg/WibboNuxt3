@@ -7,7 +7,7 @@
         </template>
         <template #body>
           <div class="text-center">
-            {{ success ? 'Ton nouveau mot de passe à été envoyer par mail! Va vite voir ta boite mail!' : 'Une erreur est survenu!' }}
+            {{ success ? 'Ton nouveau mot de passe a été envoyé par mail! Va vite voir ta boite mail!' : 'Une erreur est survenu!' }}
           </div>
         </template>
       </BaseCard>
@@ -32,7 +32,7 @@ try {
   await useApiFetch('forgot/' + route.params.code.toString(), { method: 'PUT' })
 
   showAlert({
-    message: 'Ton nouveau mot de passe à été envoyer par mail! Va vite voir ta boite mail!',
+    message: 'Ton nouveau mot de passe a été envoyé par mail! Va vite voir ta boite mail!',
     type: 'success'
   })
 

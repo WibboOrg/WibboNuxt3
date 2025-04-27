@@ -25,7 +25,7 @@
     <div class="grid grid-cols-3 gap-2">
       <BaseCard>
         <template #title>
-          CHARGES ET RESPONSABILITÉS
+          1. CHARGES ET RESPONSABILITÉS
         </template>
         <template #body>
           <b>1.1</b>
@@ -73,7 +73,7 @@
       </BaseCard>
       <BaseCard>
         <template #title>
-          RÉGLEMENT DE WIBBO
+          2. RÉGLEMENT DE WIBBO
         </template>
         <template #body>
           <b>2.1</b>
@@ -142,7 +142,7 @@
       </BaseCard>
       <BaseCard>
         <template #title>
-          CONDITIONS DE VENTE
+          3. CONDITIONS DE VENTE
         </template>
         <template #body>
           <b>3.1</b>
